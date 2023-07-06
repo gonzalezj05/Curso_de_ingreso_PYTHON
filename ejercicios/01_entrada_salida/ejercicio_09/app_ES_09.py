@@ -40,7 +40,10 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        PRECIO = 1000
+        # aumento = 
+        precio_final = PRECIO * 0.10
+        print(precio_final)
         
     
 if __name__ == "__main__":
