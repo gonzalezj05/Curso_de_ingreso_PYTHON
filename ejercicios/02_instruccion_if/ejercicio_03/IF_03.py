@@ -35,7 +35,21 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        nombre = "Pepe"
+        trabajando = True
+        edad = 18
+
+        if nombre == "José" and edad >= 18:
+            mensaje = "Encontramos a José de 18 años"
+
+        if nombre == "Jose" and nombre == "Pepe":
+            mensaje = "Encontramos a Pepe"
+
+        if nombre == "Pepe" and not trabajando:
+            mensaje = "Va a ver a Racing"
+
+
+        alert("respuesta", mensaje)
 
         
         
